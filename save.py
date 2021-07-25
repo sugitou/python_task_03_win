@@ -22,7 +22,7 @@ def save_csv(save_dir, filename):
         read_data = rf.readlines()
     
     # 現在時刻取得
-    now = datetime.datetime.now().strftime('%Y-%m-%d_%H:%M:%S')
+    now = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
     new_file = now + '_' +filename
     output = new_dir + '\\' + new_file
     print('output', output)

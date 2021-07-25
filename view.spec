@@ -5,9 +5,9 @@ block_cipher = None
 
 
 a = Analysis(['view.py'],
-             pathex=['/Users/right/python課題/project03'],
+             pathex=['C:\\Users\\Raito\\Documents\\python_task\\python_task_03'],
              binaries=[],
-             datas=[('/Users/right/python課題/project03/venv/lib/python3.8/site-packages/eel/eel.js', 'eel'), ('web', 'web')],
+             datas=[('C:\\Users\\Raito\\Documents\\python_task\\python_task_03\\venv\\lib\\site-packages\\eel\\eel.js', 'eel'), ('web', 'web')],
              hiddenimports=['bottle_websocket'],
              hookspath=[],
              hooksconfig={},
